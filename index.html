@@ -25,19 +25,35 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="makepdfs">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
+  <meta http-equiv="Permissions-Policy" content="geolocation=(self)">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <meta http-equiv="Permissions-Policy" content="geolocation=(self)">
+
 
   <title>makepdfs</title>
   <link rel="manifest" href="manifest.json">
+  <script>
+    function requestLocationPermission() {
+      return new Promise((resolve, reject) => {
+        if (!navigator.geolocation) {
+          console.warn('Geolocation is not supported by this browser.');
+          resolve(false);
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(
+          () => resolve(true),
+          () => resolve(false)
+        );
+      });
+    }
+  </script>
 </head>
 <body>
 
   <script>
-    const serviceWorkerVersion = "3344429955";
+    const serviceWorkerVersion = "2412392866";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
