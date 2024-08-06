@@ -36,9 +36,32 @@
   
 </head>
 <body>
-
   <script>
-    const serviceWorkerVersion = "436737114";
+    // Register the web plugin for Geolocator
+    if ('geolocation' in navigator) {
+      console.log('Geolocation request initiated');
+      window.navigator.geolocation.getCurrentPosition = function(success, error, options) {
+        
+        return navigator.geolocation.getCurrentPosition(
+          function(position) {
+            console.log('Geolocation success:');
+            console.log('Latitude:', position.coords.latitude);
+            console.log('Longitude:', position.coords.longitude);
+            if (success) success(position);
+          },
+          function(err) {
+            console.log('Geolocation error:', err);
+            if (error) error(err);
+          },
+          options
+        );
+      };
+    } else {
+      console.log('Geolocation is not available in this browser');
+    }
+  </script>
+  <script>
+    const serviceWorkerVersion = "3747381728";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
