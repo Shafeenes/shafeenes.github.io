@@ -25,7 +25,7 @@
     function requestLocationPermission() {
       return new Promise((resolve, reject) => {
         if (!navigator.geolocation) {
-          console.warn('Geolocation is not supported by this browser.');
+          // console.warn('Geolocation is not supported by this browser.');
           resolve(false);
           return;
         }
@@ -51,7 +51,7 @@
 <body>
  
   <script>
-    const serviceWorkerVersion = "1147776117";
+    const serviceWorkerVersion = "3888916217";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
