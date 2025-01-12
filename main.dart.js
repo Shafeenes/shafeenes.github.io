@@ -34856,7 +34856,7 @@ s===$&&A.b()
 s.l()
 this.JN()},
 W(a){var s=null
-return new A.qO(A.ZA(new A.w8(B.bK,B.nO,B.nQ,B.ie,s,B.hb,s,A.a([new A.p6(A.ad5(s,s,new A.nM("logo.png",s,s)),150,150,s),A.r7(s,30,s),B.Jj,A.r7(s,20,s),A.r7(new A.w1(A.a1x(10),new A.pp(12,s,A.b3(B.c.bC(76.5),244,67,54),B.BK,s,s,s,s),s),s,250)],t.eE),s),s,s),B.i,s)}}
+return new A.qO(A.ZA(new A.w8(B.bK,B.nO,B.nQ,B.ie,s,B.hb,s,A.a([new A.p6(A.ad5(s,s,new A.nM("assets/logo.png",s,s)),150,150,s),A.r7(s,30,s),B.Jj,A.r7(s,20,s),A.r7(new A.w1(A.a1x(10),new A.pp(12,s,A.b3(B.c.bC(76.5),244,67,54),B.BK,s,s,s,s),s),s,250)],t.eE),s),s,s),B.i,s)}}
 A.uS.prototype={
 l(){var s=this,r=s.dk$
 if(r!=null)r.O(s.glB())
