@@ -100267,7 +100267,7 @@ F(a){var s=A.yi(B.aF,B.cI,"Poppins",B.p3,!0),r=A.yi(B.X,B.cI,"Poppins",B.H2,!0),
 if(q==null)q=B.eS
 return new A.v2(s,r,q,new A.akI(this),null)}}
 A.akI.prototype={
-$2(a,b){return new A.rq(this.a.e.a!=null?B.wO:B.wL,"Fresho",a,b,!1,null)},
+$2(a,b){return new A.rq(this.a.e.a!=null?B.wO:B.wL,"QTPMC",a,b,!1,null)},
 $S:543}
 A.jg.prototype={
 j(a){var s=this
