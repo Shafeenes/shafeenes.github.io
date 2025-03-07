@@ -21,22 +21,22 @@
   <link rel="manifest" href="manifest.json">
   <script>
 
-    const serviceWorkerVersion = "3099284634";
+    const serviceWorkerVersion = "2880019529";
   </script>
 
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "fbcca247-d7d3-4f82-9ace-44d98bae98ef",
+    });
+  });
+</script>
 
 
 </head>
 <body>
-  <script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function () {
-      OneSignal.init({
-        appId: "fbcca247-d7d3-4f82-9ace-44d98bae98ef",
-      });
-    });
-  </script>
   <script>
     window.addEventListener('load', function (ev) {
       _flutter.loader.loadEntrypoint({
