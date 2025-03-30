@@ -1,6 +1,6 @@
 {
-    "name": "push_notfiy_frontend",
-    "short_name": "push_notfiy_frontend",
+    "name": "lucky_draw",
+    "short_name": "lucky_draw",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
