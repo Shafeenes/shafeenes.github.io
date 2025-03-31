@@ -52140,7 +52140,7 @@ A.zm.prototype={
 O(a){return new A.qw(new A.pY(null),!1,null)}}
 A.pY.prototype={
 aj(){var s=t.s,r=A.b(["200 QR","150 QR","200 QR","150 QR","200 QR","150 QR"],s),q=A.a89(null,t.S),p=A.b([],t.A7)
-s=A.b(["Shijin Joseph","Aby Soman","Harizz Abdul Kareem","Shaheer Doha","Abhiraj R.A","Ali z7","Riyas Surumi","Abdul Rauoof","Najeeb Km","Naveed Najeeb","Fadil Cy","Aflah Roshan","Ranees","Arif RM","Siyad Bp","Muhammed Sameel","Bilal Sinon","Jamsheer Enarpoyil","Fasil Koombra","Renshi Maliyakal","Hakkim Cm","Adam Alhan Sanu","Nizar Aha","Mahesh Panayara","Niyas Kottappuram","Sidhik Koppath","Joyal ishwani","Punnoose Ambatt","Muhammed Rashid","Rasool Raash","Afsarsha Afsar","Saleh Salam","Nazexm","Afsal M M","Basil Bukhary","Adel Safid","jehaan_qatar","Nazim","Moosa Ali","Aisha Khan Qtr","Afroze Qatar","ilyas","Syed Ibraheem jasim ali","Shakeel","Noushad Thalukassery Moideen","moh_ammedqtr","Zulfi","Shihab Abdul Kharim","Maria Mushtaq","Khadija","Riskan","bint_qatar1995","umsalar512","Saleel Saleem"],s)
+s=A.b(["Shijin Joseph","Aby Soman","Harizz Abdul Kareem","Shaheer Doha","Abhiraj R.A","Ali z7","Riyas Surumi","Abdul Rauoof","Najeeb Km","Naveed Najeeb","Fadil Cy","Aflah Roshan","Ranees","Arif RM","Siyad Bp","Muhammed Sameel","Bilal Sinon","Jamsheer Enarpoyil","Fasil Koombra","Renshi Maliyakal","Hakkim Cm","Adam Alhan Sanu","Nizar Aha","Mahesh Panayara","Niyas Kottappuram","Sidhik Koppath","Joyal ishwani","Punnoose Ambatt","Muhammed Rashid","Rasool Raash","Afsarsha Afsar","Saleh Salam","Nazexm","Afsal M M","Basil Bukhary","Adel Safid","jehaan_qatar","Nazim","Moosa Ali","Aisha Khan Qtr","Afroze Qatar","ilyas","Syed Ibraheem jasim ali","Shakeel","Noushad Thalukassery Moideen","moh_ammedqtr","Zulfi","Shihab Abdul Kharim","Maria Mushtaq","Khadija","Riskan","bint_qatar1995","umsalar512","Saleel Saleem","Siraj Mayyil","Seli Sidhique","Abid Abdul Aziz","Saquib Sarfraz"],s)
 return new A.uo(r,q,p,s,B.vU)}}
 A.uo.prototype={
 HC(){var s,r,q,p=this
@@ -52165,7 +52165,7 @@ p=g.f<11?"Spin Wheel":"11 Winners Reached"
 o=t.Y
 p=A.a2l(A.b([e,d,new A.y4(c,f,f,f,s,f,f,!1,f,!0,f,A.hQ(p,A.fd(f,f,f,f,f,f,f,f,f,f,f,24,f,f,B.aH,f,f,!0,f,f,f,f,f,f,f,f)),f)],o),B.b2,B.aT,B.dH)
 s=A.l4(f,50,f)
-c=A.hQ("WINNERS LIST",A.fd(f,f,f,f,f,f,f,f,f,f,f,24,f,f,B.aH,f,f,!0,f,f,f,f,f,f,f,f))
+c=A.hQ("WINNERS LIST!!",A.fd(f,f,f,f,f,f,f,f,f,f,f,24,f,f,B.aH,f,f,!0,f,f,f,f,f,f,f,f))
 d=A.l4(f,10,f)
 n=new A.cm(B.m,1,B.N,-1)
 e=A.av([0,new A.m4(3),1,new A.m4(1)],t.S,t.lf)
@@ -52209,7 +52209,7 @@ n.qi(A.aeg(null,q,!0,null,new A.YF(s,o),p,null,r,B.tY,!0,t.z))}},
 $S:0}
 A.YF.prototype={
 $1(a){var s=null
-return new A.lD(A.hQ("Congratulations!",A.fd(s,s,B.Bj,s,s,s,s,s,s,s,s,30,s,s,B.aH,s,s,!0,s,s,s,s,s,s,s,s)),A.hQ(this.a+" won the prize: "+this.b,A.fd(s,s,s,s,s,s,s,s,s,s,s,28,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.b([new A.Br(new A.YE(a),s,s,s,s,s,s,!1,s,!0,s,A.hQ("OK",A.fd(s,s,A.as(4280910009),s,s,s,s,s,s,s,s,20,s,s,B.aH,s,s,!0,s,s,s,s,s,s,s,s)),s)],t.Y),B.i,s)},
+return new A.lD(A.hQ("Congratulations!!",A.fd(s,s,B.Bj,s,s,s,s,s,s,s,s,30,s,s,B.aH,s,s,!0,s,s,s,s,s,s,s,s)),A.hQ(this.a+" won the prize: "+this.b,A.fd(s,s,s,s,s,s,s,s,s,s,s,28,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.b([new A.Br(new A.YE(a),s,s,s,s,s,s,!1,s,!0,s,A.hQ("OK",A.fd(s,s,A.as(4280910009),s,s,s,s,s,s,s,s,20,s,s,B.aH,s,s,!0,s,s,s,s,s,s,s,s)),s)],t.Y),B.i,s)},
 $S:360}
 A.YE.prototype={
 $0(){A.qV(this.a,!1).eI()},
